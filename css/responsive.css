@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .banner-title h2 {
+        font-size: 45px;
+    }
+
+    /* -------  Blog Left Css ------- */
+    .blog-left {
+        width: 100%;
+    }
+
+    .blog-right {
+        width: 100%;
+    }
+
+    .blog-left .bg-black {
+        background-color: inherit;
+    }
+
+    .blog-left li {
+        display: inline-block;
+
+        border: 1px solid #ddd;
+    }
+
+    .blog-left ul li a {
+        width: 175px;
+    }
+
+    /* ------- blog right Css ------- */
+    .single-blog {
+        width: 50%;
+    }
+
+    /* ------- footer Css ------- */
+    .footer-wrap {
+        width: 768px;
+    }
+
+}
+
+/*------- Mobile Device ------- */
+@media (max-width: 576px) {
+    .container {
+        width: 576px;
+    }
+
+    /* ------- Banner Css ------- */
+    .banner-title h2 {
+        font-size: 25px;
+    }
+
+    .banner-wrap {
+        display: block;
+    }
+
+    .banner-btn {
+        margin-bottom: 30px;
+    }
+
+    .banner-left {
+        width: 100%;
+    }
+
+    .banner-right {
+        width: 100%;
+    }
+
+    /* ------- Blog Css ------- */
+
+    .blog-left ul {
+        text-align: center;
+    }
+
+    .blog-left ul li {
+        display: block;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .single-blog {
+        width: 100%;
+    }
+
+    .view-all button {
+        display: inline-block;
+    }
+
+    /* ------- footer Css ------- */
+    .footer-wrap {
+        width: 576px;
+    }
+
+    .footer-menu ul li {
+        display: block;
+    }
+
+
+}
+
+/* ------- Upcoming Page Css ------- */
+@media (max-width: 576px) {
+
+    .upcoming-img-wrap {
+        display: block;
+        height: auto;
+    }
+
+    .img1 img,
+    .img2 img {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .vs {
+        width: 100%;
+        align-self: inherit;
+        margin-bottom: 20px;
+    }
+
+}
